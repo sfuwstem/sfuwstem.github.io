@@ -1,0 +1,9 @@
+.introduction{
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #000000;
+    max-width: 10000px;
+    display: flex;
+    justify-content: center;
+}
