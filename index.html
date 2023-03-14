@@ -4,38 +4,89 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="background.css">
-<link rel="stylesheet" href="introduction.css">
+<link rel="stylesheet" href="css/background.css">
+<link rel="stylesheet" href="css/introduction.css">
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/header.css">
 
 <div class="background">
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a style="color: #4E5377; padding-top:10px" class="navbar-brand font-weight-bold" href>SFUWSTEM</a>
+    <a style="color: #4E5377; padding-top:10px; font-family: 'Barlow', sans-serif;" class="navbar-brand font-weight-bold" href="#about">SFUWSTEM</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a style="color: #4E5377; font-family :Barlow, sans-serif" class="nav-link mb-0 h5" href="#">ABOUT<span class="sr-only">(current)</span></a>
+          <a style="color: #4E5377; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="#about">ABOUT<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a style="color: #4E5377; font-family :Barlow, sans-serif" class="nav-link mb-0 h5" href="#">MANDATE<span class="sr-only">(current)</span></a>
+          <a style="color: #4E5377; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="#events">EVENTS<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a style="color: #4E5377; font-family :Barlow, sans-serif"class="nav-link mb-0 h5" href="#">EXECUTIVES<span class="sr-only">(current)</span></a>
+          <a style="color: #4E5377; font-family: 'Barlow', sans-serif"class="nav-link mb-0 h5 font-weight-bold" href="#">EXECUTIVES<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a style="color: #4E5377; font-family :Barlow, sans-serif" class="nav-link mb-0 h5" href="#">JOIN CLUB<span class="sr-only">(current)</span></a>
+          <a style="color: #4E5377; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="#">JOIN CLUB<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
   </nav>
 
   <!--Home/About-->
-  <div class ="introduction">Hi! We are the Women in STEM club at SFU.</class>
+  <section id="about">
+  <div class ="introduction">Hi, we are the Women in STEM club at SFU.</class>
   </div>
-  
+  <div class="body">We are allied with students of all different backgrounds and identities.
+    Our <strong>goal</strong> is to create a <strong>supportive</strong> environment in all fields of STEM. 
+    Our main <strong>focus</strong> is to connect with women at SFU through various outreach and networking events. 
+    <br> <br>
+    We work <strong>together</strong> to plan for events where students at SFU can expand their skills and knowledge.
+    We aspire to create a positive impact for students in their careers in <br> <br><strong>SCIENCE</strong> | <strong>TECHNOLOGY</strong> | <strong>ENGINEERING</strong> | <strong>MATHEMATICS</strong>
+    <br><br>
+    <button type="button" class="btn btn-outline-dark" href="#events">LEARN MORE</button>
+    <br><br><br><br><br><br><br><br>
+  </div>
+</section>
+
+<!--Events-->
+<section  id="events">
+  <div class ="introduction">What does SFUWSTEM do? <br><br></class>
+  </div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
+      <div class="card-header border-dark body col-4"><strong>SOCIAL MIXERS</strong></div>
+      <div class="card-body text-dark">
+        <p class="card-text body">We want the SFU community to feel <strong>connected</strong>. We hold mixers so that students can find their peers in similar studies and interests.
+        Hosting these events allow a place for people to gather to in a more casual setting outside of lecture halls</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
+      <div class="card-header border-dark body col-4"><strong>PANELS</strong></div>
+      <div class="card-body text-dark">
+        <p class="card-text body">Our goal is provide useful information that can help <strong>advance</strong> the careers of students.
+        Panels feature guests from various backgrounds in STEM that want to share their expensive in their respective fields.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
+      <div class="card-header border-dark body col-4"><strong>OUTREACH</strong></div>
+      <div class="card-body text-dark">
+        <p class="card-text body">We work with other SFU clubs, societies, associations, and unions and community organizations to plan events and 
+        share opportunities for our members to keep them <strong>informed</strong> about networking and outreach events that interest them.
+    </div>
+  </div>
+</div>
+
+
+</section>
+
   <!-- Footer-->
   <nav class="navbar fixed-bottom navbar-light">
     <div class="navbar-nav d-flex flex-row">

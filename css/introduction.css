@@ -4,6 +4,7 @@
     font-weight: 800;
     color: #000000;
     max-width: 10000px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding-top: 75px;
+    margin: auto;
 }
