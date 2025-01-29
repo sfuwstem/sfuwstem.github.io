@@ -9,3 +9,12 @@
 html {
     scroll-behavior: smooth;
 }
+
+a {
+    color:#212529;
+}
+
+a:hover{
+    color: #e6e8e5;
+    text-decoration:none;
+}
