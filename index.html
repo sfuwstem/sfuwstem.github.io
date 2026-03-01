@@ -1,477 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>SFUWSTEM</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.ico"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/background.css">
-    <link rel="stylesheet" href="css/title.css">
-    <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/header.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="javascript/adjustheight.js"></script>
+  <meta charset="UTF-8">
+  <title>SFUWSTEM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href = "css/styles.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+
+  
 </head>
 
-<div class="background">
-  <!--Navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <a style="color: #363b51; padding-top:10px; font-family: 'Barlow', sans-serif;" class="navbar-brand font-weight-bold" href="#about">SFUWSTEM</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a style="color: #5c6286; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="#about">ABOUT<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a style="color: #5c6286; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="#events">EVENTS<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a style="color: #5c6286; font-family: 'Barlow', sans-serif"class="nav-link mb-0 h5 font-weight-bold" href="#executives">EXECUTIVES<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a style="color: #5c6286; font-family: 'Barlow', sans-serif" class="nav-link mb-0 h5 font-weight-bold" href="https://go.sfss.ca/clubs/634/info" target="_blank">JOIN THE CLUB<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+
+<body>
+
+  <!-- NAV BAR-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+
+      <!-- BRAND (logo) -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo">
+      </a>
+
+      <!-- TOGGLER -->
+      <button class="navbar-toggler" type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- COLLAPSE -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#executives">executives</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://go.sfss.ca/clubs/634/info" target="_blank">join us</a></li>
+        </ul>
+      </div>
+
     </div>
   </nav>
 
   <!--Home/About-->
-  <section id="about">
-  <div class ="title">Hi, we are the Women in STEM club at SFU.</class>
-    <img width="80" height="80" src="images/logo.png" alt="logo">
-  </div>
-  <div class="body">We are allied with students of all different backgrounds and identities.
-    Our <strong>goal</strong> is to create a <strong>supportive</strong> environment in all fields of STEM. 
-    Our main <strong>focus</strong> is to connect with women at SFU through various outreach and networking events. 
-    <br> <br>
-    We work <strong>together</strong> to plan for events where students at SFU can expand their <strong>skills</strong> and <strong>knowledge</strong>.
-    We aspire to create a <strong>positive</strong> impact for students in their careers as they explore...<br><br><strong>SCIENCE</strong> | <strong>TECHNOLOGY</strong> | <strong>ENGINEERING</strong> | <strong>MATHEMATICS</strong>
-    <br><br>
-    <button type="button" class="btn btn-outline-dark" onClick='window.location="#events"'>LEARN MORE</button>
+ <section id="about" class="pt-5">
+  <div class="container text-center">
+    <h1 class="title">Hi, we are the Women in STEM club at SFU.</h1>
+    <div class="body mt-4">
+      We are allied with students of all different backgrounds and identities.
+      Our <strong>goal</strong> is to create a <strong>supportive</strong> environment in all fields of STEM. 
+      Our main <strong>focus</strong> is to connect with women at SFU through various outreach and networking events. 
+      <br> <br>
+      We work <strong>together</strong> to plan for events where students at SFU can expand their <strong>skills</strong> and <strong>knowledge</strong>.
+      We aspire to create a <strong>positive</strong> impact for students in their careers as they explore...<br><br>
+      <strong>SCIENCE</strong> | <strong>TECHNOLOGY</strong> | <strong>ENGINEERING</strong> | <strong>MATHEMATICS</strong>
+      <br><br>
+    </div>
   </div>
 </section>
 
+
 <!--Events-->
 <section id="events">
-  <div class ="title">What does SFUWSTEM do? <br><br></class>
-  </div>
-<div class="row">
-  <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
-      <div class="card-header border-dark body col-4"><strong>SOCIAL MIXERS</strong></div>
-      <div class="card-body text-dark">
-        <p class="card-text body">We want the SFU community to feel <strong>connected</strong>. We hold mixers so that students can find their peers in similar studies and interests.
-        Hosting these events allow a place for people to gather to in a more casual setting outside of lecture halls.</p>
+  <div class="container-fluid text-center">
+    <h2 class="title">What does SFUWSTEM do?</h2><br><br>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-dark">
+          <div class="card-header"><strong>SOCIAL MIXERS</strong></div>
+          <div class="card-body">
+            <p >We want the SFU community to feel <strong>connected</strong>. We hold mixers so that students can find their peers in similar studies and interests.
+            Hosting these events allow a place for people to gather to in a more casual setting outside of lecture halls.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
-      <div class="card-header border-dark body col-4"><strong>PANELS</strong></div>
-      <div class="card-body text-dark">
-        <p class="card-text body">Our goal is to provide useful information that can help <strong>advance</strong> the careers of students.
-        Panels feature guests from various backgrounds in STEM that want to share their experience in their respective fields.</p>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-dark">
+          <div class="card-header"><strong>PANELS</strong></div>
+          <div class="card-body">
+            <p>Our goal is to provide useful information that can help <strong>advance</strong> the careers of students.
+            Panels feature guests from various backgrounds in STEM that want to share their experience in their respective fields.</p>
+          </div>
+        </div>
       </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-dark">
+          <div class="card-header"><strong>OUTREACH</strong></div>
+          <div class="card-body">
+            <p>We work with other SFU clubs, societies, associations, unions and community organizations to plan events and 
+            share opportunities for our members to keep them <strong>informed</strong> about networking and outreach events that interest them.</p>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="events_btn"class="btn btn-outline-dark" onClick='window.location="#events"'>LEARN MORE</button>
     </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 25rem;">
-      <div class="card-header border-dark body col-4"><strong>OUTREACH</strong></div>
-      <div class="card-body text-dark">
-        <p class="card-text body">We work with other SFU clubs, societies, associations, unions and community organizations to plan events and 
-        share opportunities for our members to keep them <strong>informed</strong> about networking and outreach events that interest them.
+
+    <br><br>
+    <div class="section-text">
+      To stay up to date with our events, follow us on 
+      <a href="https://www.instagram.com/sfuwstem/" target="_blank">Instagram</a>, 
+      <a href="https://www.facebook.com/sfuwstem" target="_blank">Facebook</a> join our 
+      <a href="https://discord.gg/KzHmm8MWdX" target="_blank">Discord</a>. 
+      You can also get in contact with us by sending an email at 
+      <a href="mailto:sfuwstem@sfu.ca">sfuwstem@sfu.ca</a>.
     </div>
-  </div>
-</div>
-<br><br>
-  <div class="container">
-    <div class ="body">To stay up to date with our events, follow us on <a href="https://www.instagram.com/sfuwstem/" target="_blank">Instagram</a>, 
-      <a href="https://www.facebook.com/sfuwstem" target="_blank">Facebook</a> or join our <a href="https://discord.gg/KzHmm8MWdX" target="_blank"> Discord</a>.
-      You can can also get in contact with us by sending an email at <a href="mailto:sfuwstem@sfu.ca">sfuwstem@sfu.ca</a><br></class>
   </div>
 </section>
-<br><br><br><br>
+
 
 <!--Executives-->
 <section id="executives">
   <div class="title">Meet the Executives!</div><br><br>
-  <div class="row">
-        <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/anisa.jpg" alt="Anisa" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Anisa Gahunia</a></div>
-                        <p class="card-text body"><strong>CO-PRESIDENT</strong></p>
-                      </div>
-                  </div>
-    </div>
+    <div class="container">
+    <div class="row justify-content-center">
 
-        <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/simrit.jpg" alt="Simrit" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Simrit Rai</a></div>
-                        <p class="card-text body"><strong>CO-PRESIDENT</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-    <div class="col-sm-4">
-          <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-            <div class="crop mx-auto">
-            <img class="img-fluid" src="images/executives/Bavneet.png" alt="Bavneet" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/anisa.png" alt="Anisa Gahunia">
           </div>
-             <div class="card-body">
-                <div class="body"><a href="https://www.linkedin.com/in/bavneet-hothi/" target="_blank">Bavneet Hothi</a></div>
-                <p class="card-text body"><strong>VICE PRESIDENT</strong></p>
-              </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Anisa Gahunia</div>
+            <p class="exec-role">CO-PRESIDENT</p>
           </div>
-    </div>
-
-     <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/maria.jpg" alt="Maria" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Maria Kapitanenko</a></div>
-                        <p class="card-text body"><strong>VICE PRESIDENT OF EVENTS</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-        <div class="col-sm-4">
-                <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                  <div class="crop mx-auto">
-                  <img class="img-fluid" src="images/executives/sanja.jpg" alt="Sanja" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                </div>
-                   <div class="card-body">
-                      <div class="body">Sanja Jovanovic</div>
-                      <p class="card-text body"><strong>VICE PRESIDENT OF FINANCE</strong></p>
-                    </div>
-                </div>
-    </div>
-
-    <div class="col-sm-4">
-                <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                  <div class="crop mx-auto">
-                  <img class="img-fluid" src="images/executives/preet.jpg" alt="Preet" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                </div>
-                   <div class="card-body">
-                      <div class="body">Preet Thandi</div>
-                      <p class="card-text body"><strong>FINANCE DIRECTOR</strong></p>
-                    </div>
-                </div>
-    </div>
-
-    <div class="col-sm-4">
-      <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-        <img class="img-fluid" src="images/executives/sarah.jpg" alt="Sarah" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
+        </div>   
       </div>
-         <div class="card-body">
-            <div class="body">Sarah Sikder</a></div>
-            <p class="card-text body"><strong>GRAD COORDINATOR</strong></p>
+      
+      
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/simrit.png" alt="Simrit Rai">
           </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Simrit Rai</div>
+            <p class="exec-role">CO-PRESIDENT</p>
+          </div>
+        </div>   
       </div>
-</div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/Bavneet.png" alt="Bavneet Hothi">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name"><a href="https://www.linkedin.com/in/bavneet-hothi/" target="_blank">Bavneet Hothi</a></div>
+            <p class="exec-role">VICE PRESIDENT</p>
+          </div>
+        </div>   
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/stella.png" alt="Stella Roumieu">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Stella Roumieu</a></div>
+            <p class="exec-role">VICE PRESIDENT OF EVENTS</p>
+          </div>
+        </div>   
+      </div>  
    
-    <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/stella.jpeg" alt="Stella" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Stella Roumieu</a></div>
-                        <p class="card-text body"><strong>EVENTS COORDINATOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-       
-    <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/Neha.jpg" alt="Neha" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body"><a href="https://www.linkedin.com/in/neha-sunil-a01906253" target="_blank">Neha Sunil</a></div>
-                        <p class="card-text body"><strong>EVENTS COORDINATOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-        <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/sanjana.JPG" alt="Sanajana" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body"><a href="https://www.linkedin.com/in/sanjana-seigell/" target="_blank">Sanjana Seigell</a></div>
-                        <p class="card-text body"><strong>EVENTS COORDINATOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-
-    <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/eesha.jpeg" alt="Eesha" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Eesha Rehman</a></div>
-                        <p class="card-text body"><strong>EXTERNAL RELATIONS DIRECTOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-
-    <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/megan.jpeg" alt="Megan" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body"><a href="https://www.linkedin.com/in/meganchiem/" target="_blank">Megan Chiem</a></div>
-                        <p class="card-text body"><strong>EXTERNAL RELATIONS DIRECTOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-        <div class="col-sm-4">
-                  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                    <div class="crop mx-auto">
-                    <img class="img-fluid" src="images/executives/jasnoor.JPG" alt="Jasnoor" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                  </div>
-                     <div class="card-body">
-                        <div class="body">Jasnoor Sekhon</div>
-                        <p class="card-text body"><strong>EXTERNAL RELATIONS DIRECTOR</strong></p>
-                      </div>
-                  </div>
-    </div>
-
-    <div class="col-sm-4">
-                    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                      <div class="crop mx-auto">
-                      <img class="img-fluid" src="images/executives/chelsea.jpeg" alt="Chelsea" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                    </div>
-                       <div class="card-body">
-                          <div class="body">Chelsea Rubia</a></div>
-                          <p class="card-text body"><strong>LEAD MARKETING COORDINATOR</strong></p>
-                        </div>
-                    </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-          <img class="img-fluid" src="images/executives/Lauren.jpeg" alt="Lauren" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-        <div class="card-body">
-          <div class="body">Lauren Harris</a></div>
-            <p class="card-text body"><strong>MARKETING COORDINATOR</strong></p>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/sanja.png" alt="Sanja Jovanovic">
           </div>
-        </div>
-      </div>
-
-        <div class="col-sm-4">
-          <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-          <div class="crop mx-auto">
-            <img class="img-fluid" src="images/executives/ava.jpg" alt="Ava" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
+          <div class="card-body text-center">
+            <div class="exec-name">Sanja Jovanovic</a></div>
+            <p class="exec-role">VICE PRESIDENT OF FINANCE</p>
           </div>
-          <div class="card-body">
-            <div class="body"><a href="https://www.linkedin.com/in/elizabeth-ava-de-la-paz-0b7183253/" target="_blank">Ava De La Paz</a></div>
-              <p class="card-text body"><strong>MARKETING COORDINATOR</strong></p>
-            </div>
+        </div>   
+      </div>  
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/chelsea.png" alt="Chelsea Rubia">
           </div>
-        </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Chelsea Rubia</a></div>
+            <p class="exec-role">VICE PRESIDENT OF MARKETING</p>
+          </div>
+        </div>   
+      </div>  
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/preet.png" alt="Preet Thandi">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Preet Thandi</a></div>
+            <p class="exec-role">FINANCE DIRECTOR</p>
+          </div>
+        </div>   
+      </div>       
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/sanjana.png" alt="Sanjana Seigell">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name"><a href="https://www.linkedin.com/in/sanjana-seigell/" target="_blank">Sanjana Seigell</a></div>
+            <p class="exec-role">EVENTS COORDINATOR</p>
+          </div>
+        </div>   
+      </div>     
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/eesha.png" alt="Eesha Rehman">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Eesha Rehman</a></div>
+            <p class="exec-role">EXTERNAL RELATIONS DIRECTOR</p>
+          </div>
+        </div>   
+      </div> 
+      
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/megan.png" alt="Megan Chiem">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name"><a href="https://www.linkedin.com/in/meganchiem/" target="_blank">Megan Chiem</a></div>
+            <p class="exec-role">EXTERNAL RELATIONS DIRECTOR</p>
+          </div>
+        </div>   
+      </div> 
 
 
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/jasnoor.png" alt="Jasnoor Sekhon">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Jasnoor Sekhon</div>
+            <p class="exec-role">EXTERNAL RELATIONS DIRECTOR</p>
+          </div>
+        </div>   
+      </div> 
 
 
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/ava.png" alt="Ava De La Paz">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name"><a href="https://www.linkedin.com/in/elizabeth-ava-de-la-paz-0b7183253/" target="_blank">Ava De La Paz</a></div>
+            <p class="exec-role">MARKETING COORDINATOR</p>
+          </div>
+        </div>   
+      </div> 
+      
 
-<div class="col-sm-4">
-  <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-    <div class="crop mx-auto">
-    <img class="img-fluid" src="images/executives/rhea.jpeg" alt="placeholder" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-  </div>
-     <div class="card-body">
-      <div class="body"><a href="https://www.linkedin.com/in/rhea-chand-19b6b921a" target="_blank">Rhea Chand</a></div>
-      <p class="card-text body"><strong>MARKETING COORDINATOR</strong></p>
-      </div>
-  </div>
-</div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/rhea.png" alt="Rhea Chand">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name"><a href="https://www.linkedin.com/in/rhea-chand-19b6b921a" target="_blank">Rhea Chand</a></div>
+            <p class="exec-role">MARKETING COORDINATOR</p>
+          </div>
+        </div>   
+      </div> 
 
-
-    <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                      <div class="crop mx-auto">
-                      <img class="img-fluid" src="images/executives/selina.png" alt="Selina" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-                    </div>
-                       <div class="card-body">
-                        <div class="body">Selina Dhaliwal</a></div>
-                          <p class="card-text body"><strong>Secretary</strong></p>
-                        </div>
-    </div>
-</section><br><br>
-
-<!--Past Executives-->
-<section id="former_executives">
-  <div class="body">Meet the former executives that contributed to the Women in STEM Club!</div><br><br>
-  <div class="row">
-
-    <div class="col-sm-4">
-      <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/anisha.jpg" alt="Anisha" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-       <div class="card-body">
-          <div class="body"><a href="https://www.linkedin.com/in/anishak1" target="_blank">Anisha Kainth</a></div>
-        </div>
-      </div>
-  </div>
-
-
-
-  <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-      <div class="crop mx-auto">
-        <img class="img-fluid" src="images/placeholder.jpg" alt="placeholder" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-      </div>
-      <div class="card-body">
-        <div class="body"><a href="https://www.linkedin.com/in/victoria-xy-wu/" target="_blank">Victoria Wu</a></div>
-      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card exec-card">
+          <div class="exec-img-wrapper">
+            <img src="images/executives/selina.png" alt="Selina Dhaliwal">
+          </div>
+          <div class="card-body text-center">
+            <div class="exec-name">Selina Dhaliwal</a></div>
+            <p class="exec-role">SECRETARY</p>
+          </div>
+        </div>   
+      </div> 
+      
     </div>
   </div>
-
-  <div class="col-sm-4">
-    <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-      <div class="crop mx-auto">
-        <img class="img-fluid" src="images/past executives/isabella.jpg" alt="Isabella" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-      </div>
-      <div class="card-body">
-        <div class="body">Isabella Russo</a></div>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-sm-4">
-      <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/simran.jpg" alt="Simran" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-        <div class="card-body">
-          <div class="body"><a href="https://www.linkedin.com/in/simran-nijjar-b86571256/" target="_blank">Simran Nijjar</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-        <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-          <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/rachelle.jpg" alt="Rachelle" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-           <div class="card-body">
-              <div class="body">Rachelle Payandeh</div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-sm-4">
-      <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/jaspreet.jpg" alt="Jaspreet" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-       <div class="card-body">
-          <div class="body"><a href="https://www.linkedin.com/in/jaspreetdodd/" target="_blank">Jaspreet Dodd</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-      <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-        <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/jasleen.jpg" alt="Jasleen" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-        <div class="card-body">
-          <div class="body"><a href="https://www.linkedin.com/in/jasleen-dodd-057696206/" target="_blank">Jasleen Dodd</a></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-        <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-          <div class="crop mx-auto">
-          <img class="img-fluid" src="images/past executives/leila.jpg" alt="Leila" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-        </div>
-           <div class="card-body">
-              <div class="body">Leila Mouaikel</div>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-          <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-            <div class="crop mx-auto">
-            <img class="img-fluid" src="images/past executives/lynn.jpg" alt="Lynn" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-          </div>
-             <div class="card-body">
-                <div class="body"><a href="https://www.linkedin.com/in/lynn-ayache-7b613a1b3/" target="_blank">Lynn Ayache</a></div>
-              </div>
-          </div>
-    </div>
-    <div class="col-sm-4">
-            <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-              <div class="crop mx-auto">
-              <img class="img-fluid" src="images/placeholder.jpg" alt="Puja" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-            </div>
-               <div class="card-body">
-                  <div class="body"><a href="https://www.linkedin.com/in/puja-shah-711a79177/" target="_blank">Puja Shah</a></div>
-                </div>
-            </div>
-    </div>
-    <div class="col-sm-4">
-            <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-              <div class="crop mx-auto">
-              <img class="img-fluid" src="images/past executives/jasmine.jpg" alt="Jasmine" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-            </div>
-               <div class="card-body">
-                  <div class="body">Jasmine Grewal</a></div>
-                </div>
-            </div>
-    </div>
-    <div class="col-sm-4">
-              <div class="card bg-transparent border-dark mb-3 bg-light mx-auto" style="max-width: 20rem;">
-                <div class="crop mx-auto">
-                <img class="img-fluid" src="images//past executives/deora.jpg" alt="Deora" style="width: 500px; height: 400px; max-width: 100%; max-height: 100%;">
-              </div>
-                 <div class="card-body">
-                  <div class="body"><a href="https://www.linkedin.com/in/deora-dias-b21712174/ " target="_blank">Deora Dias</a></div>
-                  </div>
-              </div>
-    </div>
-           
 </section>
 
+
   <!-- Footer-->
-  <nav class="navbar navbar-light">
-    <div class="navbar-nav d-flex flex-row" style="gap: 10px;">
-    <a style="color: #4E5377" href="https://www.instagram.com/sfuwstem/" target="_blank">  <span class="fa-brands fa-instagram fa-2x fa-fw"></span></a>
-    <a style="color: #4E5377" href="https://www.facebook.com/sfuwstem" target="_blank"> <span class="fa-brands fa-facebook fa-2x fa-fw"></span></a>
-    <a style="color: #4E5377" href="https://discord.gg/KzHmm8MWdX" target="_blank"><span class="fa-brands fa-discord fa-2x fa-fw"></span></a>
-    <a style="color: #4E5377" href="mailto:sfuwstem@sfu.ca"><span class="fa-regular fa-envelope fa-2x fa-fw"></span></a>
+<footer class="footer py-4 mt-5">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- Social Icons -->
+    <div class="d-flex gap-3 mb-3 mb-md-0">
+      <a href="https://www.instagram.com/sfuwstem/" target="_blank">
+        <span class="fab fa-instagram fa-2x"></span>
+      </a>
+      <a href="https://www.facebook.com/sfuwstem" target="_blank">
+        <span class="fab fa-facebook fa-2x"></span>
+      </a>
+      <a href="https://discord.gg/KzHmm8MWdX" target="_blank">
+        <span class="fab fa-discord fa-2x"></span>
+      </a>
+      <a href="mailto:sfuwstem@sfu.ca">
+        <span class="far fa-envelope fa-2x"></span>
+      </a>
     </div>
-  </nav>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-</div>
+
+    <!-- Newsletter Link -->
+    <div class="newsletter">
+      <a href="http://eepurl.com/jlepIk" target="_blank">Sign up for our newsletter</a>
+    </div>
+    
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* ===============================
+   GLOBAL
+   =============================== */
+
+body {
+    padding-top: 90px; /* space for fixed navbar */
+    background-color: #FFFCEF;
+    font-family: "Manrope", sans-serif;
+}
+
+/* ===============================
+   NAVBAR
+   =============================== */
+
+.navbar {
+    background-color: #062D64;
+    z-index: 1050;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    height: 75px;
+}
+
+.navbar.navbar-dark .nav-link {
+    font-size: 15px;
+    padding: 0.4rem 0.75rem;
+    color: #C3D7F3;
+}
+
+.navbar.navbar-dark .nav-link:hover {
+    color: #87AFE8;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ===============================
+   SECTION TITLES
+   =============================== */
+
+.title {
+    font-size: clamp(24px, 7vw, 100px);
+    font-weight: 400;
+    color: #062D64;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* ===============================
+   ABOUT SECTION TEXT
+   =============================== */
+
+#about .section-text,
+#about .body {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #212529;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ===============================
+   EVENTS SECTION
+   =============================== */
+
+#events {
+    margin-top: 60px;
+}
+
+/* Cards */
+
+#events .card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #062D64;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#events .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+#events .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #062D64;
+    text-align: center;
+}
+
+#events .card-body {
+    font-size: 15px;
+    color: #333;
+}
+
+/* ===============================
+   EVENTS FOOTER TEXT + LINKS
+   =============================== */
+
+#events_btn:hover{
+    background-color: #062D64 !important;
+    color:white;
+
+}   
+
+#events .section-text {
+    margin-top: 40px;
+    font-size: 16px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* High-specificity link override (beats Bootstrap) */
+#events .section-text a {
+    color: #062D64 !important;
+    font-weight: 500;
+}
+
+#events .section-text a:hover {
+    color: #87AFE8 !important;
+    text-decoration: none;
+}
+
+
+
+/* ===============================
+   EXECUTIVE CARDS
+   =============================== */
+
+
+.exec-img-wrapper {
+    width: 100%;
+    height: 320px;              
+    overflow: hidden;
+}
+
+.exec-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+    object-position: center;
+    display: block;
+}
+
+#executives .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+#executives .card-title {
+    margin-bottom: 0.5rem;
+}
+
+.col-12 {
+    padding-bottom: 20px;
+}
+
+.exec-name a:hover{
+    text-decoration: none;
+    color:#062D64;
+}
+
+.exec-name {
+    color:#87AFE8;
+}
+
+.exec-name a{
+    color: #2766BF;
+}
+
+.exec-role{
+    color:#FFB5AB;
+}
+
+/* ===============================
+   FOOTER
+   =============================== */
+.footer{
+    background-color: #062D64;
+
+}
+
+.footer a{
+    color:#C3D7F3;
+}
+
+.footer span {
+    padding-left: 15px;
+}
+
+.newsletter{
+    color:#C3D7F3;
+}
+
+.newsletter a:hover{
+    color:#2766BF;
+    text-decoration: none;
+}
+
